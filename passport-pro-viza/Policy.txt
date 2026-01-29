@@ -292,10 +292,14 @@ We collect images that you voluntarily upload or capture via the camera function
 16. PURPOSE OF COLLECTION
 We process your Input Images and facial data solely for the purpose of generating new, stylized, or modified images as requested by you ('Generated Content'). We do not use your facial data for authentication, advertising, or marketing purposes. We do not use your data to identify you personally other than to process your specific request.
 
-17. SHARING WITH THIRD PARTIESTo provide the AI image generation feature, we transmit your Input Images to our third-party AI service provider, Google LLC ('Google'), via the Gemini API. Google processes this data solely to generate the requested output.We have reviewed Google's API Data Policy and confirmed that:Google does not use your Input Images to train their foundational AI models (when using the paid enterprise/developer API).Google retains data temporarily for abuse monitoring and safety verification before deletion.
+17. SHARING WITH THIRD PARTIESTo provide the AI image generation feature, we transmit your Input Images to our third-party AI service provider, Google LLC ('Google'), via the Gemini API. Google processes this data solely to generate the requested output.
+We have reviewed Google's API Data Policy and confirmed that:
+Google does not use your Input Images to train their foundational AI models (when using the paid enterprise/developer API).
+Google retains data temporarily for abuse monitoring and safety verification before deletion.
 
 18. DATA RETENTION
-Our Retention: We do not permanently store your Input Images on our servers. Images are uploaded to our processing server, sent to the Gemini API, and deleted from our systems immediately after the Generated Content is delivered to your device (typically within [Insert Time, e.g., 5-10 minutes]).Third-Party Retention: Google may retain API input data for a limited period (typically up to 30 days) solely for abuse monitoring and safety compliance, after which it is deleted. They do not retain your images for long-term storage.
+Our Retention: We do not permanently store your Input Images on local storage. Images are sent to the Gemini API immediately, the Generated Content is delivered to your device directly.
+Third-Party Retention: Google may retain API input data for a limited period (typically up to 30 days) solely for abuse monitoring and safety compliance, after which it is deleted. They do not retain your images for long-term storage.
 
 19. DISCLOSURE OF BIOMETRIC DATA
 We do not sell, lease, trade, or otherwise profit from your biometric data or facial images. We do not use this data for user surveillance or identification.
