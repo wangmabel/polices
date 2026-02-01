@@ -55,7 +55,8 @@ TABLE OF CONTENTS
 17. SHARING WITH THIRD PARTIES
 18. DATA RETENTION
 19. DISCLOSURE OF BIOMETRIC DATA
-
+20. Collection and Retention of Face Data
+21. Sharing with Third Parties
 
 1. WHAT INFORMATION DO WE COLLECT?
 Personal information you disclose to us
@@ -303,3 +304,23 @@ Third-Party Retention: Google may retain API input data for a limited period (ty
 
 19. DISCLOSURE OF BIOMETRIC DATA
 We do not sell, lease, trade, or otherwise profit from your biometric data or facial images. We do not use this data for user surveillance or identification.
+
+20. Collection and Retention of Face Data
+Our app uses your device's camera to capture a photo of your face. We use this information solely to facilitate the generation of a passport-compliant photograph.
+
+No Retention: We provide an explicit statement that Face Data is not retained. Once the photo is generated and the session is closed, all original facial images and any temporary face data are immediately deleted from the application’s memory and local storage.
+
+Storage Duration: Face Data is stored only for the duration of the processing session (typically less than 60 seconds). We do not store Face Data indefinitely.
+
+Reason for Duration: This temporary storage is strictly necessary to transmit the image to our AI processing partner and receive the edited result back to the user.
+
+21. Sharing with Third Parties
+To provide the image-editing and background-removal capabilities, your photo is shared with a third-party service provider: Google Gemini (Google LLC).
+
+Reason for Sharing: We share this data with Google Gemini to utilize their advanced AI Vision capabilities for cropping, alignment, and background removal required for passport standards.
+
+Third-Party Storage Practices: Google Gemini acts as a data processor. According to Google’s standard data processing terms for the Gemini API:
+
+Retention: Data sent via the API is held ephemerally for the purpose of the request. Google may retain metadata or logs for a limited period (typically up to 55 days) for safety and security monitoring only, after which it is deleted.
+
+Purpose: The data is used strictly to fulfill the image-generation request and is not used to train Google’s underlying AI models. For more information, please refer to the Google Gemini API Privacy Terms, https://www.google.com/search?q=https://ai.google.dev/gemini-api/docs/data-privacy.
